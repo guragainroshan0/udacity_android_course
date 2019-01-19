@@ -15,6 +15,7 @@
  */
 package com.example.android.didyoufeelit;
 
+import android.os.AsyncTask;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -74,6 +75,8 @@ public final class Utils {
         }
         return url;
     }
+
+
 
     /**
      * Make an HTTP request to the given URL and return a String as the response.

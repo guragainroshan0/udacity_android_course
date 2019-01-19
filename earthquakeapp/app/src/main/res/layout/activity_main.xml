@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+        <ListView
+            android:id="@+id/earthquake_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="true"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <ProgressBar
+            android:id="@+id/data_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
